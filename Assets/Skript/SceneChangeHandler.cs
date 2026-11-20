@@ -10,7 +10,7 @@ public class SceneChangeHandler : MonoBehaviour
     public void ChangeScene()
     {
         // Load the scene named "NewScene"
-        SceneManager.LoadSceneAsync("gameplay", LoadSceneMode.Single);
+        SceneManager.LoadSceneAsync("story", LoadSceneMode.Single);
     }
 
     public void QuitGame()

@@ -522,13 +522,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: d6c4a17181ce53c499dcea6344506776, type: 3}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1538664226}
+        m_TargetAssemblyTypeName: ChangeToScene, Assembly-CSharp
+        m_MethodName: ChangeScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -581,9 +581,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1538664221}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e24f660f42d0c644bb34466b143601e, type: 3}
+  m_Script: {fileID: 11500000, guid: 10ec473159b43504a8c6b01b4a582e3c, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SceneChangeHandler
+  m_EditorClassIdentifier: Assembly-CSharp::ChangeToScene
 --- !u!1 &1652877293
 GameObject:
   m_ObjectHideFlags: 0
